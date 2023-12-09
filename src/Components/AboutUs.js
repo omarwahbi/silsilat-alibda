@@ -17,8 +17,8 @@ export default function AboutUs() {
           <p>
             We spare no effort in providing a diverse range of fresh and
             delicious beverages that refect diversity and quality in every
-            package. We use the 􀃶nest natural and organic ingredients to ensure
-            that our products maintain their natural 􀃸avor and high quality.
+            package. We use the finest natural and organic ingredients to ensure
+            that our products maintain their natural favor and high quality.
           </p>
         </Col>
         <Col s={12} md={4}></Col>

@@ -10,7 +10,12 @@ export default function NavbarComponent() {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={Logo} style={{ height: "75px" }} alt="company logo" />
+            <img
+              src={Logo}
+              style={{ height: "75px" }}
+              className="nav-brand-mobile"
+              alt="company logo"
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

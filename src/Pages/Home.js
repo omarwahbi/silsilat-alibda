@@ -14,7 +14,7 @@ export default function Home() {
       <div className="intro background">
         <div className="container">
           <Row className="d-flex align-content-center">
-            <Col className="col-md-8 col">
+            <Col s={12} md={8}>
               <div className="company">
                 <h1 className="companyName">Silsilat ALibda</h1>
                 <p className="desc">
@@ -23,7 +23,7 @@ export default function Home() {
                 </p>
               </div>
             </Col>
-            <Col className="col-md-4 col"></Col>
+            <Col s={12} md={4}></Col>
           </Row>
           <div className="cards">
             <Cards />

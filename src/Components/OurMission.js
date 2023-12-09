@@ -7,7 +7,7 @@ export default function OurMission() {
     <div className="background">
       <div className="container">
         <Row className="d-flex align-content-center">
-          <Col className="col-md-8 col">
+          <Col s={12} md={8}>
             <div className="our-mission">
               <h1 className="our-mission-t fw-bold mb-4">Our Mission</h1>
               <p className="our-mission-p">
@@ -25,7 +25,7 @@ export default function OurMission() {
               </p>
             </div>
           </Col>
-          <Col className="col-md-4 col"></Col>
+          <Col s={12} md={4}></Col>
         </Row>
       </div>
     </div>

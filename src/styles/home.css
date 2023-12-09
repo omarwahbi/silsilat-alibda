@@ -68,3 +68,36 @@
   background-color: #006666;
   color: aliceblue;
 }
+
+@media (max-width: 767px) {
+  .nav-brand-mobile {
+    margin-left: -28px;
+  }
+  .intro {
+    height: 1100px;
+  }
+  .companyName {
+    font-size: 60px;
+  }
+  .company {
+    text-align: center;
+  }
+  .mobile-card {
+    margin: 0 !important;
+    margin-bottom: 10px !important ;
+  }
+  .about-us {
+    height: 550px;
+  }
+  .our-mission {
+    height: 550px;
+  }
+  .our-vision {
+    height: 720px;
+  }
+  .mobile-footer {
+    text-align: center !important;
+    justify-content: center !important ;
+    margin-bottom: 10px;
+  }
+}

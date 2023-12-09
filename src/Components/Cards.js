@@ -4,7 +4,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 function Cards() {
   return (
     <CardGroup className="m-auto">
-      <Card className="me-3">
+      <Card className="me-3 mobile-card">
         <Card.Body>
           <Card.Title>Beverage Production:</Card.Title>
           <Card.Text>
@@ -14,7 +14,7 @@ function Cards() {
         </Card.Body>
         <Card.Footer></Card.Footer>
       </Card>
-      <Card className="me-3">
+      <Card className="me-3 mobile-card">
         <Card.Body>
           <Card.Title>Diversity and Quality:</Card.Title>
           <Card.Text>
@@ -24,7 +24,7 @@ function Cards() {
         </Card.Body>
         <Card.Footer></Card.Footer>
       </Card>
-      <Card className="me-3">
+      <Card className="me-3 mobile-card">
         <Card.Body>
           <Card.Title>Innovation and Development:</Card.Title>
           <Card.Text>
