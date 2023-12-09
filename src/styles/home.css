@@ -1,0 +1,70 @@
+.background {
+  background-color: #006666;
+}
+.intro {
+  height: 900px;
+}
+.companyName {
+  font-size: 80px;
+}
+.company {
+  text-align: start;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+  color: aliceblue;
+  font-size: 24px;
+}
+.card {
+  background-color: #339966;
+  color: aliceblue;
+}
+.about-us {
+  height: 400px;
+  align-items: center;
+  display: flex;
+  color: #006666;
+  font-size: 18px;
+  text-align: start;
+}
+.links {
+  font-size: 19px;
+}
+.our-mission {
+  height: 350px;
+  text-align: start;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  color: aliceblue;
+  font-size: 18px;
+}
+.our-vision {
+  height: 420px;
+  text-align: start;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  color: #006666;
+  font-size: 18px;
+}
+/* Footer.css */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: aliceblue;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover if desired */
+}
+.bg {
+  background-color: #006666;
+  color: aliceblue;
+}
