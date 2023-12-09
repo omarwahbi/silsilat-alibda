@@ -38,8 +38,9 @@ const Footer = () => {
           <div className="col-md-6 d-flex justify-content-end">
             <div className="text-md-right">
               <p className="mb-0">Contact us:</p>
-              <p>Iraq - baghdad - Owairaj Industrial Area</p>
-              <p>Phone: +964782233000</p>
+              <p className="mb-0">Iraq - baghdad - Owairaj Industrial Area</p>
+              <p className="mb-0">Phone: +964782233000</p>
+              <p className="mb-0">Email: info@silsilat-alibda.com</p>
             </div>
           </div>
         </div>
