@@ -3,8 +3,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../Assets/Logo.svg";
+import { useTranslation } from "react-i18next";
+import LangSelector from "./LangSelector";
 
 export default function NavbarComponent() {
+  const { t } = useTranslation();
   return (
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -21,24 +24,25 @@ export default function NavbarComponent() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home" className="links">
-                Home
+                {t("home")}
               </Nav.Link>
               <Nav.Link href="#link" className="links">
-                Pages
+                {t("pages")}
               </Nav.Link>
               <Nav.Link href="#link" className="links">
-                Links
+                {t("links")}
               </Nav.Link>
               <Nav.Link href="#link" className="links">
-                Elements
+                {t("elements")}
               </Nav.Link>
               <Nav.Link href="#link" className="links">
-                News
+                {t("news")}
               </Nav.Link>
               <Nav.Link href="#link" className="links">
-                Contacts
+                {t("contacts")}
               </Nav.Link>
             </Nav>
+            <LangSelector />
           </Navbar.Collapse>
         </Container>
       </Navbar>

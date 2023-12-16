@@ -1,6 +1,10 @@
 .background {
   background-color: #006666;
 }
+.language-selector {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
 .intro {
   height: 900px;
 }
@@ -50,15 +54,17 @@
   font-size: 18px;
 }
 /* Footer.css */
-.social-icons {
-  margin-top: 10px;
-}
 
+.mobile-footer {
+  display: flex;
+  justify-content: flex-start;
+}
 .social-icon {
   font-size: 24px;
   color: aliceblue;
   margin: 0 10px;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .social-icon:hover {

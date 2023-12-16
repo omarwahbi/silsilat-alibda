@@ -7,7 +7,9 @@ import AboutUs from "../Components/AboutUs";
 import OurMission from "../Components/OurMission";
 import OurVision from "../Components/OurVision";
 import Footer from "../Components/Footer";
+import { useTranslation } from "react-i18next";
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <div>
       <NavbarComponent />
@@ -16,10 +18,9 @@ export default function Home() {
           <Row className="d-flex align-content-center">
             <Col s={12} md={8}>
               <div className="company">
-                <h1 className="companyName">Silsilat ALibda</h1>
-                <p className="desc">
-                  Our company specializes in manufacturing juices,
-                  <br /> soda water, and iced coffee
+                <h1 className="companyName">{t("company_name")}</h1>
+                <p className="desc" style={{ width: "50ch" }}>
+                  {t("comapny_descreption")}
                 </p>
               </div>
             </Col>

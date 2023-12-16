@@ -7,8 +7,10 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer
       style={{
@@ -23,22 +25,24 @@ const Footer = () => {
             s={12}
             md={6}
             className="mobile-footer"
-            style={{ textAlign: "left" }}
+            // style={{ textAlign: "left" }}
           >
-            <p className="mb-0">Follow us on social media:</p>
-            <div className="social-icons">
-              <a href="#" className="social-icon">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="#" className="social-icon">
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a href="#" className="social-icon">
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a href="#" className="social-icon">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
+            <div>
+              <p className="mb-0">{t("footer_follow")}</p>
+              <div className="social-icons">
+                <a href="#" className="social-icon">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+                <a href="#" className="social-icon">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+                <a href="#" className="social-icon">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a href="#" className="social-icon">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </div>
             </div>
           </Col>
           <Col
@@ -47,10 +51,10 @@ const Footer = () => {
             className="d-flex mobile-footer justify-content-end"
           >
             <div className="text-md-right">
-              <p className="mb-0">Contact us:</p>
-              <p className="mb-0">Iraq - baghdad - Owairaj Industrial Area</p>
-              <p className="mb-0">Phone: +964782233000</p>
-              <p className="mb-0">Email: musab@allaith-group.com</p>
+              <p className="mb-0">{t("contact_us")}</p>
+              <p className="mb-0">{t("address")}</p>
+              <p className="mb-0">{t("phone")}</p>
+              <p className="mb-0">{t("email")}</p>
             </div>
           </Col>
         </Row>
